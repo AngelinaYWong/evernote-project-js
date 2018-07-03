@@ -7,6 +7,6 @@ class Note {
   }
 
   el() {
-    return `<li>${this.title}</li>`
+    return `<li data-id=${this.id}>${this.title}</li>`
   }
 }
